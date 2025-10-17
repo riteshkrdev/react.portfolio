@@ -73,12 +73,12 @@ function App() {
               Web Applications
             </p>
             <div className="rp-hero-actions">
-              <button
+              {/* <button
                 className="rp-btn primary"
                 onClick={() => scrollTo("projects")}
               >
                 View Projects
-              </button>
+              </button> */}
               <a
                 className="rp-btn ghost"
                 href="https://www.linkedin.com/in/riteshkrdev"
