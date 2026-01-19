@@ -197,7 +197,7 @@ const Hero = ({ refs }) => (
         </h1>
 
         <p className="text-gray-400 text-lg md:text-xl max-w-lg mb-8 leading-relaxed">
-          I'm Ritesh, a Frontend Engineer specialized in React and Angular. I craft high-performance, accessible web applications with clean architecture.
+          I'm Ritesh, a Frontend Engineer specialized in Angular and React. I craft high-performance, accessible web applications with clean architecture.
         </p>
 
         <div className="flex flex-wrap gap-4">
@@ -262,7 +262,7 @@ const About = ({ refs }) => (
             Hi, I’m a results-driven <span className="text-white font-medium">Frontend Engineer</span> with 2+ years of experience designing and developing dynamic, user-centric web applications. 
           </p>
           <p className="leading-loose mt-4">
-            My journey involves a deep dive into the JavaScript ecosystem, moving from vanilla JS to complex <span className="text-cyan-400">React</span> and <span className="text-red-400">Angular</span> architectures. I thrive in collaborative environments where performance, scalability, and clean code are priorities. When I'm not coding, I'm exploring new UI trends or optimizing user centric applications.
+            My journey involves a deep dive into the JavaScript ecosystem, moving from vanilla JS to complex <span className="text-cyan-400">Angular</span> and <span className="text-red-400">React</span> architectures. I thrive in collaborative environments where performance, scalability, and clean code are priorities. When I'm not coding, I'm exploring new UI trends or optimizing user centric applications.
           </p>
         </div>
       </motion.div>
@@ -406,7 +406,7 @@ const Projects = ({ refs }) => {
 /* SKILLS */
 const Skills = ({ refs }) => {
   const categories = [
-    { name: "Frontend", items: ["React", "Angular", "TypeScript", "Redux"] },
+    { name: "Frontend", items: ["Anuglar", "React", "TypeScript", "Redux"] },
     { name: "Styling", items: ["Tailwind CSS", "SCSS", "Material UI"] },
     { name: "Tools", items: ["Git", "Webpack", "Vite", "Jest", "Figma"] }
   ];
@@ -519,7 +519,7 @@ const Contact = ({ refs }) => (
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="mailto:riteshkumar.dev2@gmail.com"
+            href="mailto:ritesh.frontend@gmail.com"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-all hover:scale-105"
           >
             <Mail size={20} /> Say Hello
